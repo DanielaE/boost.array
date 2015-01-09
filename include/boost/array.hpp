@@ -35,8 +35,9 @@
 #if BOOST_WORKAROUND(BOOST_MSVC, >= 1400)  
 # pragma warning(push)  
 # pragma warning(disable:4996) // 'std::equal': Function call with parameters that may be unsafe
-# pragma warning(disable:4510) // boost::array<T,N>' : default constructor could not be generated 
-# pragma warning(disable:4610) // warning C4610: class 'boost::array<T,N>' can never be instantiated - user defined constructor required 
+# pragma warning(disable:4510) // 'boost::array<T,N>' : default constructor could not be generated 
+# pragma warning(disable:4512) // 'boost::array<T,N>' : assignment operator could not be generated
+# pragma warning(disable:4610) // 'boost::array<T,N>' can never be instantiated - user defined constructor required 
 #endif
 
 #include <cstddef>
