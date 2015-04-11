@@ -37,6 +37,7 @@
 # pragma warning(disable:4996) // 'std::equal': Function call with parameters that may be unsafe
 # pragma warning(disable:4510) // boost::array<T,N>' : default constructor could not be generated 
 # pragma warning(disable:4610) // warning C4610: class 'boost::array<T,N>' can never be instantiated - user defined constructor required 
+# pragma warning(disable:4702) // unreachable code
 #endif
 
 #include <cstddef>
